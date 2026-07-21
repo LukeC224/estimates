@@ -33,6 +33,29 @@ These came directly from Luke. Do not quietly change them.
 - **Trade codes are fixed.** Use the Caisley list in `references/trade-codes.md`. If a
   scope item doesn't fit an existing code, raise it rather than inventing a code silently.
 
+## Two outputs, one source of truth
+
+Every estimate produces two deliverables from a single underlying takeoff:
+
+**Internal working estimate** — comprehensive, modelled on the H. Douglas Consulting
+workbook for 2033 E. 7th Ave. CSI MasterFormat divisions, every line traced to a quantity
+and unit rate, labour broken out from materials and subtrades, contingency and fee
+explicit, open questions and assumptions recorded. This is the working document and the
+source of truth.
+
+**Client presentation estimate** — lighter, modelled on the Ogden format. Grouped by trade
+with a single figure per trade, plus assumptions, exclusions, and the total. This is what
+goes to the client.
+
+The client version is a *rollup of* the internal one, never a separately-derived number.
+They must reconcile exactly. If they don't, the internal version is right.
+
+Critically: **the client version must not leak unit rates, labour hours, productivity
+factors, or margin.** Those are the internal document's reason for existing. A client
+seeing `Drywall — 4,200 SF @ $3.15` can price-shop the line and can back-calculate the
+markup. `Drywall — $13,230` is what they get. Aggregate before presenting, and never carry
+a rate column into the client deliverable.
+
 ## Money model
 
 ```
