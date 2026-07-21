@@ -58,19 +58,44 @@ a rate column into the client deliverable.
 
 ## Money model
 
+Verified cell-by-cell against 2033 E. 7 (ESTIMATE DETAILS H24024–H24048). Use this, not the
+simpler Ogden version.
+
 ```
-line cost      = quantity × unit rate
-trade subtotal = Σ lines
-project cost   = Σ trades
-fee            = project cost × fee%      (8–18%, asked per job)
-GST            = (project cost + fee) × 5%
-total          = project cost + fee + GST
+M  = materials + subtrades           Σ of column H
+L  = contractor's labour             Σ of column J
+S1 = M + L
+C  = S1 × contingency%               5% on 2033 E. 7
+S2 = S1 + C
+F  = S2 × fee%                       8–18%, asked per job — COMPOUNDS ON CONTINGENCY
+S3 = S2 + F
+G  = S3 × 5%                         GST, on everything including fee
+T  = S3 + G
 ```
 
-Confirmed against the Ogden sheet: `J = (H + I) × 1.05` where `I = H × 0.10`.
+At 5% contingency and 10% fee that is `T = (M+L) × 1.21275`, which reproduces
+$2,177,895.65 exactly.
 
-BC PST is not applied as a separate line — Luke's sheets fold it into the material rates.
-Keep it that way unless told otherwise.
+Two things are easy to get wrong here. The **fee applies to the contingency-inclusive
+subtotal**, not to bare cost — fee on S2, never on S1. And **GST applies to the fee as
+well**, so it sits at the very bottom of the stack.
+
+**PST (7% BC) never appears as a summary line. It is embedded in material unit rates.** The
+lumber table computes `retail = supplier_cost × 1.20`, then `rate = retail × 1.07`. So a
+material rate carries a 20% handling markup *and* PST before it ever reaches a line item.
+Subtrade quotes are grossed the same way: `H = quote × 1.07`.
+
+That answers the question raised when only Ogden was available: PST is real and is being
+charged, just at line level rather than in the summary. When seeding a rate from a supplier
+quote, apply ×1.20×1.07. When seeding from an existing line rate in a past estimate, it is
+already grossed — do not double-apply.
+
+Insurance is cost code 1.5 (a Div 1 line, not a markup). Supervision is code 1.8 as direct
+labour, not a markup. Permits sit in Div 0. Overhead and profit are the fee, and only the
+fee.
+
+The 10% lien holdback on the CRITPATH billing schedule is a payment mechanism, not a cost.
+It never enters an estimate total.
 
 ## Reading drawing sets
 

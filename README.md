@@ -61,15 +61,15 @@ It updates the rate card, records the lesson, and reprices.
 .claude/skills/construction-estimate/   the skill itself
   SKILL.md                              main instructions
   references/
-    trade-codes.md                      the Caisley division structure
-    rate-card.md                        unit rates, learned and maintained
+    cost-codes.md                       CSI divisions and the Caisley cost code list
+    rate-card.md                        unit rates, labour rates, productivity divisors
     method.md                           takeoff and pricing procedure
+    qa-checklist.md                     standing questions for the architect/client
     lessons.md                          accumulated corrections from review
   scripts/
-    read_plans.py                       PDF text + page rendering
-    build_workbook.py                   spreadsheet generation
+    read_plans.py                       PDF text extraction + page rendering
+    build_workbook.py                   internal and client spreadsheets
 estimates/<job>/                        one directory per estimate produced
-reference/                              past jobs used as evidence
 ```
 
 ## Reference material
