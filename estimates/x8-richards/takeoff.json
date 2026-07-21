@@ -1,0 +1,638 @@
+{
+  "project": "X8 Richards \u2014 Unit 3401, 1111 Richards Street, Vancouver BC V6B 0S3",
+  "client": "Betty Kesselman",
+  "prepared_by": "Caisley Developments Ltd.",
+  "date": "2026-07-21",
+  "drawings": "Gaile Guevara Studio, ID0.00-ID1.51, 'Permit Plan Draft', printed 2025-09-10",
+  "drawings_current": false,
+  "blended_rate": 73.88,
+  "contingency": 0.1,
+  "fee": 0.13,
+  "gst": 0.05,
+  "lines": [
+    {
+      "code": "1.1",
+      "desc": "Site setup, protection of strata common property, elevator lobby and corridor protection",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 6000,
+      "hours": 16,
+      "kind": "self",
+      "source": "strata highrise condition"
+    },
+    {
+      "code": "1.1",
+      "desc": "Elevator booking, material hoisting and restricted-hours premium",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 8000,
+      "hours": 8,
+      "kind": "pc",
+      "source": "strata highrise condition"
+    },
+    {
+      "code": "1.2",
+      "desc": "Temporary dust walls and protection of retained finishes",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 4500,
+      "hours": 24,
+      "kind": "self",
+      "source": "ID1.10 keynotes 15, 22"
+    },
+    {
+      "code": "1.3",
+      "desc": "Rentals, equipment and site facilities",
+      "qty": 4,
+      "unit": "months",
+      "rate": 875,
+      "hours": 0,
+      "kind": "self",
+      "source": "assumed 4-month programme"
+    },
+    {
+      "code": "1.5",
+      "desc": "Strata damage deposit, move-in/out and administration fees",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 5000,
+      "hours": 2,
+      "kind": "pc",
+      "source": "strata bylaw \u2014 to confirm"
+    },
+    {
+      "code": "1.6",
+      "desc": "Waste removal \u2014 bagged to loading bay, no on-site bin available",
+      "qty": 12,
+      "unit": "loads",
+      "rate": 650,
+      "hours": 36,
+      "kind": "self",
+      "source": "no street access"
+    },
+    {
+      "code": "1.7",
+      "desc": "Final clean",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 3500,
+      "hours": 0,
+      "kind": "subtrade",
+      "source": "standard"
+    },
+    {
+      "code": "1.8",
+      "desc": "Site supervision \u2014 20 hrs/week over 17.3 weeks",
+      "qty": 346,
+      "unit": "hours",
+      "rate": 0,
+      "hours": 346,
+      "kind": "self",
+      "source": "assumed 4-month programme"
+    },
+    {
+      "code": "2.2",
+      "desc": "Remove existing engineered wood flooring",
+      "qty": 1050,
+      "unit": "sq.ft.",
+      "rate": 2.5,
+      "hours": 21,
+      "kind": "self",
+      "source": "ID1.10 keynote 21"
+    },
+    {
+      "code": "2.2",
+      "desc": "Remove interior partitions, closet walls and doors",
+      "qty": 90,
+      "unit": "lineal",
+      "rate": 45,
+      "hours": 36,
+      "kind": "self",
+      "source": "ID1.10 keynotes 04, 09, 11, 12, 13, 14"
+    },
+    {
+      "code": "2.2",
+      "desc": "Remove existing millwork \u2014 W.I.C., vanities, closets, valance and integrated lighting",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 8500,
+      "hours": 48,
+      "kind": "self",
+      "source": "ID1.10 keynotes 03, 07, 10, 25, 27, 29"
+    },
+    {
+      "code": "2.2",
+      "desc": "Remove existing plumbing fixtures \u2014 shower, bathtub, two vanities and sinks, kitchen faucet",
+      "qty": 6,
+      "unit": "at",
+      "rate": 350,
+      "hours": 12,
+      "kind": "self",
+      "source": "ID1.10 keynotes 05, 06, 07, 28"
+    },
+    {
+      "code": "6.9",
+      "desc": "Door installation \u2014 6 leaves incl. sliding hardware",
+      "qty": 6,
+      "unit": "doors",
+      "rate": 0,
+      "hours": 42,
+      "kind": "self",
+      "source": "ID1.20 D1-D5"
+    },
+    {
+      "code": "6.10",
+      "desc": "Door hardware installation",
+      "qty": 6,
+      "unit": "doors",
+      "rate": 0,
+      "hours": 9,
+      "kind": "self",
+      "source": "ID1.20 D1-D5"
+    },
+    {
+      "code": "8.1",
+      "desc": "D1 lower bedroom swing door 36\" solid core paint grade",
+      "qty": 1,
+      "unit": "at",
+      "rate": 850,
+      "hours": 0,
+      "kind": "quote",
+      "source": "ID1.20"
+    },
+    {
+      "code": "8.1",
+      "desc": "D2 lower ensuite sliding door 32\" solid core paint grade",
+      "qty": 1,
+      "unit": "at",
+      "rate": 1400,
+      "hours": 0,
+      "kind": "quote",
+      "source": "ID1.20"
+    },
+    {
+      "code": "8.1",
+      "desc": "D3 ppal ensuite sliding door 52\" solid core paint grade",
+      "qty": 1,
+      "unit": "at",
+      "rate": 1900,
+      "hours": 0,
+      "kind": "quote",
+      "source": "ID1.20"
+    },
+    {
+      "code": "8.1",
+      "desc": "D4 ppal bedroom double swing door 70\" \u2014 two solid core leaves",
+      "qty": 1,
+      "unit": "at",
+      "rate": 2400,
+      "hours": 0,
+      "kind": "quote",
+      "source": "ID1.20"
+    },
+    {
+      "code": "8.1",
+      "desc": "D5 ppal bedroom W.I.C. sliding door 42\" solid core paint grade",
+      "qty": 1,
+      "unit": "at",
+      "rate": 1600,
+      "hours": 0,
+      "kind": "quote",
+      "source": "ID1.20"
+    },
+    {
+      "code": "8.4",
+      "desc": "Door hardware \u2014 sliding tracks, pulls, privacy sets",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 2500,
+      "hours": 0,
+      "kind": "pc",
+      "source": "no hardware schedule"
+    },
+    {
+      "code": "9.1",
+      "desc": "New metal stud partitions, acoustic fire batt, 5/8\" GWB both sides \u2014 types 01-04",
+      "qty": 90,
+      "unit": "lineal",
+      "rate": 145,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20 assemblies 01-04"
+    },
+    {
+      "code": "9.1",
+      "desc": "Wet-area partitions and furring \u2014 14mm WEDI vapour board to shower side \u2014 types W1-W4",
+      "qty": 55,
+      "unit": "lineal",
+      "rate": 210,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20 assemblies W1-W4"
+    },
+    {
+      "code": "9.1",
+      "desc": "Drywall making-good to existing surfaces after demolition and device relocation",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 9000,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "extent unknown until demo"
+    },
+    {
+      "code": "9.3",
+      "desc": "Interior painting PT01 \u2014 walls and ceilings to match existing colour",
+      "qty": 4500,
+      "unit": "sq.ft.",
+      "rate": 2.6,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.40 finishes legend"
+    },
+    {
+      "code": "9.5",
+      "desc": "Solid wood flooring WD01 \u2014 supply and install",
+      "qty": 1050,
+      "unit": "sq.ft.",
+      "rate": 28,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.40 WD01 zones"
+    },
+    {
+      "code": "9.14",
+      "desc": "Microtopping CONC01 to floors, walls and shower step riser \u2014 specialist applied finish",
+      "qty": 1800,
+      "unit": "sq.ft.",
+      "rate": 32,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.40 keynotes 02, 03, 05"
+    },
+    {
+      "code": "9.14",
+      "desc": "Microtopping CONC01 over existing kitchen cabinetry fronts",
+      "qty": 120,
+      "unit": "sq.ft.",
+      "rate": 38,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.40 keynote 04"
+    },
+    {
+      "code": "9.12",
+      "desc": "M01 lower ensuite custom millwork vanity",
+      "qty": 1,
+      "unit": "at",
+      "rate": 9500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20"
+    },
+    {
+      "code": "9.12",
+      "desc": "M02 lower bedroom custom millwork closet and desk",
+      "qty": 1,
+      "unit": "at",
+      "rate": 11000,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20"
+    },
+    {
+      "code": "9.12",
+      "desc": "M02.1 lower kitchen custom wood extension for dining",
+      "qty": 1,
+      "unit": "at",
+      "rate": 4500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20"
+    },
+    {
+      "code": "9.12",
+      "desc": "M03 upper ppal ensuite custom millwork vanity",
+      "qty": 1,
+      "unit": "at",
+      "rate": 9500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20"
+    },
+    {
+      "code": "9.12",
+      "desc": "M04 upper ppal W.I.C. custom millwork closet \u2014 two runs",
+      "qty": 2,
+      "unit": "at",
+      "rate": 7500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20"
+    },
+    {
+      "code": "9.12",
+      "desc": "M05 upper stairs custom millwork closet",
+      "qty": 1,
+      "unit": "at",
+      "rate": 6500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20"
+    },
+    {
+      "code": "9.12",
+      "desc": "M06/M07 upper study custom millwork closets 1 and 2",
+      "qty": 2,
+      "unit": "at",
+      "rate": 7500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20"
+    },
+    {
+      "code": "9.12",
+      "desc": "Kitchen modifications \u2014 island side gable, pull-out drawers below oven, microwave relocation, cabinet door replacement, top reveal flush",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 12500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20 keynotes 02-06"
+    },
+    {
+      "code": "9.13",
+      "desc": "Stone counters with integrated sinks \u2014 PF02 and PF07",
+      "qty": 2,
+      "unit": "at",
+      "rate": 7500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20 PF02, PF07"
+    },
+    {
+      "code": "10.2",
+      "desc": "Bathroom accessories",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 3500,
+      "hours": 1,
+      "kind": "pc",
+      "source": "no accessory schedule"
+    },
+    {
+      "code": "10.3",
+      "desc": "Mirrors",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 2800,
+      "hours": 1,
+      "kind": "pc",
+      "source": "no mirror schedule"
+    },
+    {
+      "code": "10.4",
+      "desc": "G1 frameless translucent Starphire tempered shower glazing",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 9500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20 G1"
+    },
+    {
+      "code": "15.1",
+      "desc": "Plumbing rough-in and relocation \u2014 8 fixture positions",
+      "qty": 8,
+      "unit": "units",
+      "rate": 1782,
+      "hours": 8,
+      "kind": "subtrade",
+      "source": "ID1.20 PF01-PF07"
+    },
+    {
+      "code": "15.1",
+      "desc": "Raise floor level to shower room area, build-up and drain relocation",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 3500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.20 keynote 01; ID1.10 keynote 16"
+    },
+    {
+      "code": "15.2",
+      "desc": "Plumbing fixtures supply \u2014 wall-mount faucets, shower bar, controls, head",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 28000,
+      "hours": 1,
+      "kind": "pc",
+      "source": "no fixture specification issued"
+    },
+    {
+      "code": "15.5",
+      "desc": "Sprinkler head relocation \u2014 licensed contractor, occupied sprinklered highrise",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 12000,
+      "hours": 1,
+      "kind": "pc",
+      "source": "ID1.51"
+    },
+    {
+      "code": "15.6",
+      "desc": "HVAC modifications \u2014 ceiling fan relocation, diffuser adjustment",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 4500,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "ID1.11 keynote 02"
+    },
+    {
+      "code": "16.1",
+      "desc": "Electrical rough-in, device relocation \u2014 switches, outlets, keypads, fire alarm, access points, AV",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 32000,
+      "hours": 1,
+      "kind": "pc",
+      "source": "ID1.30; no electrical design issued"
+    },
+    {
+      "code": "16.3",
+      "desc": "Light fixtures supply and relocation \u2014 recessed and surface spot lights",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 18000,
+      "hours": 1,
+      "kind": "pc",
+      "source": "ID1.11, ID1.21"
+    },
+    {
+      "code": "16.4",
+      "desc": "Low voltage \u2014 AV outlets, automatic shade keypads",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 9000,
+      "hours": 1,
+      "kind": "pc",
+      "source": "ID1.10 keynotes 19, 23"
+    },
+    {
+      "code": "11.2",
+      "desc": "Appliances",
+      "qty": 0,
+      "unit": "at",
+      "rate": 0,
+      "kind": "excluded",
+      "note": "BY OWNER",
+      "source": "not scheduled"
+    },
+    {
+      "code": "12",
+      "desc": "Furniture, window coverings and styling",
+      "qty": 0,
+      "unit": "at",
+      "rate": 0,
+      "kind": "excluded",
+      "note": "NOT INCLUDED",
+      "source": "not scheduled"
+    },
+    {
+      "code": "2.2",
+      "desc": "Balcony and exterior works",
+      "qty": 0,
+      "unit": "at",
+      "rate": 0,
+      "kind": "excluded",
+      "note": "NOT INCLUDED \u2014 outside scope area",
+      "source": "ID1.20 grayed area"
+    },
+    {
+      "code": "5.3",
+      "desc": "Structural alterations",
+      "qty": 0,
+      "unit": "at",
+      "rate": 0,
+      "kind": "excluded",
+      "note": "NOT INCLUDED \u2014 no structural drawings issued",
+      "source": "no structural in set"
+    },
+    {
+      "code": "1.5",
+      "desc": "Hazardous materials abatement",
+      "qty": 0,
+      "unit": "at",
+      "rate": 0,
+      "kind": "excluded",
+      "note": "NOT INCLUDED \u2014 no survey available",
+      "source": "2019 building, low risk but unconfirmed"
+    }
+  ],
+  "assumptions": [
+    "Priced from a set marked 'Permit Plan Draft', printed 2025-09-10 \u2014 ten months old at the date of this estimate and not a final permit issue. Numbers will move if the set has been revised.",
+    "Scope area taken as 1,712.54 sq.ft. as stated on ID0.00. The cover splits this as Level 34: 1,381.30 and Level 35: 331.24, which does not appear consistent with the extent of work shown on the upper level plans. Total used, split not relied upon.",
+    "Room areas and wall lengths are measured from the drawings. The title block states the drawings are not to be scaled and not to be used to calculate areas, so all quantities require verification on site before this estimate is relied upon.",
+    "Grayed areas on ID1.20 are excluded from scope and are not priced.",
+    "Programme assumed at 4 months. Site supervision and general requirements are duration-driven and will move with it.",
+    "Existing tile floors and the drop ceiling to current extension are retained, per ID1.10 keynotes 15 and 22.",
+    "Existing toilet retained per ID1.10 keynote 08.",
+    "Building is 2019 construction (VBBL 2019, strata plan EPS7373), so hazardous materials risk is assumed low \u2014 but no survey has been sighted.",
+    "Work assumed to proceed in an occupied building with restricted working hours, elevator booking, and no on-site waste bin or lay-down area.",
+    "All labour estimated at a blended crew rate of $73.88/hr (2026 basis); actual billing at individual role rates."
+  ],
+  "exclusions": [
+    "Appliances \u2014 by owner",
+    "Furniture, window coverings and styling",
+    "Balcony and any exterior works",
+    "Structural alterations \u2014 no structural drawings issued",
+    "Hazardous materials survey and abatement",
+    "Strata legal, engineering review or permit application fees",
+    "Design fees and consultant coordination beyond normal GC duties",
+    "Any work outside the areas shown in scope on ID1.20"
+  ],
+  "questions": [
+    {
+      "q": "Is this the current drawing set? The set is marked 'Permit Plan Draft' and printed 2025-09-10.",
+      "assumed": "Priced as issued 2025-09-10",
+      "affects": "entire estimate"
+    },
+    {
+      "q": "The cover splits proposed area as Level 34: 1,381.30 sq.ft. and Level 35: 331.24 sq.ft., but the upper level plans show extensive work in the W.I.C., ppal ensuite and study. Please confirm the scope area per level.",
+      "assumed": "Total 1,712.54 sq.ft. used; per-level split not relied upon",
+      "affects": "all area-based lines"
+    },
+    {
+      "q": "PF08 appears as a tag on ID1.20 but is not listed in the fixture keytag legend. What is it?",
+      "assumed": "Not priced separately",
+      "affects": "15.2"
+    },
+    {
+      "q": "Microtopping colour and product are TBD. Which system, and is a mock-up required?",
+      "assumed": "Mid-range specialist system, no mock-up",
+      "affects": "9.14"
+    },
+    {
+      "q": "What is the total extent of microtopping to walls, as opposed to floors? Wall area drives this line far more than floor area.",
+      "assumed": "Approximately 1,800 sq.ft. total measured off the finishes plan",
+      "affects": "9.14"
+    },
+    {
+      "q": "Are plumbing fixtures supplied by owner or contractor, and is there a specification or budget?",
+      "assumed": "Contractor-supplied against a $28,000 provisional cost",
+      "affects": "15.2"
+    },
+    {
+      "q": "Is there an electrical design, or a fixture schedule? None is included in this set.",
+      "assumed": "Carried as provisional cost",
+      "affects": "16.1, 16.3"
+    },
+    {
+      "q": "Has the strata confirmed working hours, elevator booking procedure, deposit and any hoarding requirements?",
+      "assumed": "Standard downtown Vancouver strata conditions",
+      "affects": "Division 1"
+    },
+    {
+      "q": "Confirm solid wood flooring species, grade and whether it is site-finished or prefinished.",
+      "assumed": "Prefinished engineered-equivalent solid at $28/sq.ft. supplied and installed",
+      "affects": "9.5"
+    },
+    {
+      "q": "Is a hazardous materials survey available? Assumed low risk given 2019 construction.",
+      "assumed": "No abatement required",
+      "affects": "excluded"
+    }
+  ],
+  "risks": [
+    {
+      "item": "Microtopping (9.14) \u2014 largest single finishes line",
+      "why": "Rate is unverified against a Caisley project. Applied over existing substrates whose condition is unknown until demolition; failure or adhesion issues mean full removal and redo. Wall area was measured off a drawing marked do-not-scale."
+    },
+    {
+      "item": "Custom millwork (9.12) \u2014 nine separate items, ~$71,000",
+      "why": "No millwork elevations, sections or specifications exist in the set. Priced from plan tags alone. This is the line most likely to move once shop drawings are produced."
+    },
+    {
+      "item": "Electrical (16.1, 16.3, 16.4) \u2014 $59,000 of provisional cost",
+      "why": "No electrical design in the set. Extensive device relocation shown on ID1.30 but no circuiting, no panel information, and no confirmation the existing service supports the changes."
+    },
+    {
+      "item": "Strata and highrise access constraints (Division 1)",
+      "why": "Elevator booking, restricted hours, no lay-down space and bagged waste removal are all productivity penalties that Caisley's historical rates \u2014 derived from detached house work \u2014 do not carry."
+    },
+    {
+      "item": "Drywall making-good after demolition",
+      "why": "Carried as a $9,000 allowance. Extent is genuinely unknowable until walls are opened, and ID1.10 instructs the contractor to verify existing conditions on site."
+    },
+    {
+      "item": "Sprinkler relocation (15.5)",
+      "why": "Occupied sprinklered highrise. Requires a licensed contractor, strata coordination and system shutdown windows. Provisional only \u2014 no design issued."
+    },
+    {
+      "item": "Drawing set is ten months old and marked draft",
+      "why": "Design development between issues routinely moves numbers. This estimate should be re-priced against the current set before it is relied upon commercially."
+    }
+  ]
+}
