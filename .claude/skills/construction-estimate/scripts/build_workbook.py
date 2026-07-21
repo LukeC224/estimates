@@ -83,6 +83,7 @@ DIV_FILL = PatternFill("solid", fgColor="DDDDDD")
 BOLD = Font(bold=True)
 MONEY = '#,##0.00'
 THIN = Border(bottom=Side(style="thin", color="BBBBBB"))
+TOP_THIN = Border(top=Side(style="thin", color="555555"))
 
 
 def division_of(code):
@@ -131,8 +132,13 @@ def sheet_internal(wb, data):
     rate = float(data.get("blended_rate", 68.21))
     row = write_header_rows(ws, data, "INTERNAL WORKING ESTIMATE")
 
+    # Every priced row carries its own Total (material + labour), and every
+    # division band closes with a subtotal. Luke reads these sheets line by
+    # line; making him add columns 6 and 8 in his head is the reader doing the
+    # spreadsheet's job.
     headers = ["Code", "Description", "Qty", "Unit", "Rate",
-               "Material/Sub", "Hours", "Labour", "Type", "Source"]
+               "Material/Sub", "Hours", "Labour", "Total", "Type", "Source"]
+    ncol = len(headers)
     for col, h in enumerate(headers, start=1):
         c = ws.cell(row, col, h)
         c.font, c.fill = HEAD, HEAD_FILL
@@ -142,17 +148,32 @@ def sheet_internal(wb, data):
                    key=lambda l: (division_of(l.get("code")), str(l.get("code"))))
     totals = {}
 
+    def division_subtotal(r, div, first, last):
+        """Close a division band with its own subtotal row."""
+        mat, lab = totals.get(div, [0.0, 0.0])
+        ws.cell(r, 2, f"DIVISION {div} SUBTOTAL").font = BOLD
+        for col, val in ((6, mat), (8, lab), (9, mat + lab)):
+            c = ws.cell(r, col, val)
+            c.number_format, c.font = MONEY, BOLD
+        for col in range(1, ncol + 1):
+            ws.cell(r, col).border = TOP_THIN
+        return r + 2
+
     current_div = None
+    div_start = None
     for line in lines:
         div = division_of(line.get("code"))
         if div != current_div:
+            if current_div is not None:
+                row = division_subtotal(row, current_div, div_start, row - 1)
             current_div = div
             label = f"DIVISION {div} - {DIVISIONS.get(div, 'UNCLASSIFIED')}"
             c = ws.cell(row, 1, label)
             c.font = BOLD
-            for col in range(1, len(headers) + 1):
+            for col in range(1, ncol + 1):
                 ws.cell(row, col).fill = DIV_FILL
             row += 1
+            div_start = row
 
         mat = line_material(line)
         lab = line_labour(line, rate)
@@ -164,7 +185,12 @@ def sheet_internal(wb, data):
         ws.cell(row, 2, line.get("desc"))
         if line.get("kind") == "excluded":
             # Cost columns carry the exclusion wording, as in the source workbook.
-            ws.cell(row, 6, line.get("note", "NOT INCLUDED")).font = Font(italic=True)
+            note = line.get("note") or line.get("unit") or "NOT INCLUDED"
+            ws.cell(row, 6, note).font = Font(italic=True)
+            # An excluded line still gets a Total, so a reader scanning the
+            # column sees an explicit nil rather than a blank they must interpret.
+            c = ws.cell(row, 9, 0.0)
+            c.number_format, c.font = MONEY, Font(italic=True)
         else:
             ws.cell(row, 3, line.get("qty"))
             ws.cell(row, 4, line.get("unit"))
@@ -173,9 +199,11 @@ def sheet_internal(wb, data):
             if line.get("hours"):
                 ws.cell(row, 7, line["hours"])
                 ws.cell(row, 8, lab).number_format = MONEY
-        ws.cell(row, 9, KIND_LABEL.get(line.get("kind"), line.get("kind", "")))
-        ws.cell(row, 10, line.get("source", ""))
-        for col in range(1, len(headers) + 1):
+            c = ws.cell(row, 9, mat + lab)
+            c.number_format, c.font = MONEY, BOLD
+        ws.cell(row, 10, KIND_LABEL.get(line.get("kind"), line.get("kind", "")))
+        ws.cell(row, 11, line.get("source", ""))
+        for col in range(1, ncol + 1):
             ws.cell(row, col).border = THIN
         row += 1
 
@@ -183,7 +211,21 @@ def sheet_internal(wb, data):
             ws.cell(row, 2, f"    {line['vendor']}").font = Font(italic=True, size=9)
             row += 1
 
-    autosize(ws, [9, 52, 11, 12, 12, 15, 9, 13, 15, 10])
+    if current_div is not None:
+        row = division_subtotal(row, current_div, div_start, row - 1)
+
+    grand_mat = sum(v[0] for v in totals.values())
+    grand_lab = sum(v[1] for v in totals.values())
+    ws.cell(row, 2, "TRADE COST — ALL DIVISIONS").font = BOLD
+    for col, val in ((6, grand_mat), (8, grand_lab), (9, grand_mat + grand_lab)):
+        c = ws.cell(row, col, val)
+        c.number_format, c.font = MONEY, BOLD
+    for col in range(1, ncol + 1):
+        ws.cell(row, col).border = TOP_THIN
+        ws.cell(row, col).fill = DIV_FILL
+
+    ws.freeze_panes = "C9"
+    autosize(ws, [9, 52, 11, 12, 12, 15, 9, 13, 15, 15, 10])
     return totals
 
 

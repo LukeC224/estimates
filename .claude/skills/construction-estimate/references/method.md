@@ -145,6 +145,11 @@ Before issuing, check:
 8. Labour-implied duration matches the assumed programme
 9. $/sq.ft. is in a defensible range against the benchmarks
 10. Every open question is listed
+11. **Every row carries its own total, every division closes with a subtotal, and
+    the sheet ends with a grand total.** Split cost columns are fine; making the
+    reader add them in their head is not. Excluded rows show an explicit `0.00`
+    rather than a blank. The three must reconcile: sum of row totals = sum of
+    division subtotals = grand total.
 
 The source workbook carries an explicit "all 6 cells must match" cross-check block. Build
 the equivalent.
