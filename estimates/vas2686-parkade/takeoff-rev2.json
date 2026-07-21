@@ -1,0 +1,1139 @@
+{
+  "project": "Strata VAS2686 \u2014 Parkade Envelope Remediation, 1066/1068 Maple St & 1988/1998 Ogden Ave, Vancouver BC \u2014 REV 2",
+  "client": "Strata Corporation VAS2686",
+  "prepared_by": "Caisley Developments Ltd.",
+  "date": "2026-07-21",
+  "drawings": "wndr architecture + design inc., Building Permit set DB-2022-05336, 5 sheets (A-1.0, A-2.0, A-2.1, A-6.0, A-6.1), issued 23.03.06 rev 04 'BP Deficiencies', City of Vancouver ACCEPTED 2023-03-22",
+  "drawings_current": false,
+  "blended_rate": 73.88,
+  "contingency": 0.15,
+  "fee": 0.1,
+  "gst": 0.05,
+  "lines": [
+    {
+      "code": "1.1",
+      "desc": "Job site costs \u2014 site setup, signage, hoarding at work-area edges, maintained pedestrian access to 4 occupied units throughout (16 bi-weekly periods over a 7-month programme)",
+      "qty": 16,
+      "unit": "months",
+      "rate": 1150,
+      "hours": 32,
+      "kind": "self",
+      "source": "A-1.0 / A-2.1"
+    },
+    {
+      "code": "1.1",
+      "desc": "Pre-construction condition survey \u2014 photographic record of all existing units, common property, paths and retained landscape. Written notice of pre-existing damage must issue within 5 days or every defect found at completion becomes the contractor's",
+      "qty": 1,
+      "unit": "at",
+      "rate": 3800,
+      "hours": 16,
+      "kind": "self",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.1",
+      "desc": "Hot work fire watch \u2014 BC Fire Code 5.2.3.3: continuous watch during torching, 60 minutes after, AND a final inspection of the area 4 hours after completion. 45 torching days at 3 paid hrs (135 hrs at the $52.90 labourer rate, shown as blended-equivalent hours)",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 0,
+      "hours": 97,
+      "kind": "self",
+      "source": "A-6.0 (2-ply SBS, torch-applied)"
+    },
+    {
+      "code": "1.1",
+      "desc": "Performance bond",
+      "qty": 1,
+      "unit": "at",
+      "rate": 9200,
+      "hours": 0,
+      "kind": "quote",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.1",
+      "desc": "Labour and material payment bond",
+      "qty": 1,
+      "unit": "at",
+      "rate": 6600,
+      "hours": 0,
+      "kind": "quote",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.2",
+      "desc": "Tree protection zone fencing \u2014 two phases per arborist report; 18 trees and hedges retained (9 site, 4 city). Installed as directed by City of Vancouver",
+      "qty": 420,
+      "unit": "lineal",
+      "rate": 29.96,
+      "hours": 8,
+      "kind": "subtrade",
+      "source": "A-1.0"
+    },
+    {
+      "code": "1.2",
+      "desc": "Certified arborist supervision of all excavation encroaching within the TPZ, per City note on A-1.0. Raised to 80 hrs \u2014 excavation to expose the parkade wall runs directly along the retained tree line and root conflict is likely",
+      "qty": 80,
+      "unit": "hours",
+      "rate": 197.95,
+      "hours": 4,
+      "kind": "quote",
+      "source": "A-1.0"
+    },
+    {
+      "code": "1.2",
+      "desc": "Tree removal permit and replacement obligation for the section of hedge #9 removed for scaffolding (Vancouver: $113 first, $324 each additional, replacement or $1,000 cash-in-lieu over 20 cm dia.)",
+      "qty": 1,
+      "unit": "at",
+      "rate": 1450,
+      "hours": 2,
+      "kind": "self",
+      "source": "A-1.0"
+    },
+    {
+      "code": "1.2",
+      "desc": "Silica containment and exposure control plan \u2014 concrete chipping and abrasive blasting on the deck is a listed respirable silica task under WorkSafeBC; HEPA exhaust and written ECP required",
+      "qty": 1,
+      "unit": "at",
+      "rate": 4200,
+      "hours": 8,
+      "kind": "self",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.3",
+      "desc": "Rentals, equipment and sanitary \u2014 incl. relocation of porta potty outside the CRZ of tree #10 per A-1.0 note",
+      "qty": 16,
+      "unit": "months",
+      "rate": 620,
+      "hours": 6,
+      "kind": "self",
+      "source": "A-1.0"
+    },
+    {
+      "code": "1.3",
+      "desc": "Temporary ventilation of the parkade during hot work \u2014 axial fans, ducting, and continuous multi-gas CO monitoring. Propane torches and kettles in an enclosed parkade are a named WorkSafeBC CO hazard",
+      "qty": 16,
+      "unit": "months",
+      "rate": 780,
+      "hours": 12,
+      "kind": "self",
+      "source": "A-6.0 (torch-applied SBS over an operating parkade)"
+    },
+    {
+      "code": "1.3",
+      "desc": "Temporary heat and enclosure \u2014 membrane requires 10 degrees C minimum for 12 hrs before, during, and 72 hrs after application. Assumes the programme spans shoulder season",
+      "qty": 1,
+      "unit": "at",
+      "rate": 9500,
+      "hours": 10,
+      "kind": "self",
+      "source": "A-6.0 material list"
+    },
+    {
+      "code": "1.3",
+      "desc": "Crane, hoisting and material handling over the podium \u2014 all material lands on a suspended slab with no vehicle access. BC Housing names this as the item that most often breaks a podium estimate priced as at-grade work",
+      "qty": 1,
+      "unit": "at",
+      "rate": 9500,
+      "hours": 10,
+      "kind": "subtrade",
+      "source": "A-2.1"
+    },
+    {
+      "code": "1.3",
+      "desc": "Hydrovac of parkade vent drain \u2014 conditional, 'HYDROVAC IF NECESSARY' per A-2.1. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 2568,
+      "hours": 2,
+      "kind": "pc",
+      "source": "A-2.1"
+    },
+    {
+      "code": "1.5",
+      "desc": "Course-of-construction and liability insurance \u2014 occupied strata, water-ingress exposure, hot work endorsement. Carriers have tightened hard on torch-applied work over occupied residential; endorsement is not assumed to be free",
+      "qty": 1,
+      "unit": "at",
+      "rate": 11500,
+      "hours": 0,
+      "kind": "quote",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.6",
+      "desc": "Cleanup and disposal \u2014 bins for concrete topping, paving, fill, cladding and green waste (55 hrs at the $52.90 labourer rate, shown as blended-equivalent hours)",
+      "qty": 18,
+      "unit": "bins",
+      "rate": 1354,
+      "hours": 39,
+      "kind": "self",
+      "source": "A-1.0 scope of work"
+    },
+    {
+      "code": "1.6",
+      "desc": "Excess and potentially contaminated soil disposal \u2014 BC Contaminated Sites Regulation requires relocation notification above 30 cubic metres; tipping $40\u201380/tonne, $250 if characterised hazardous. Characterisation by Owner. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 6500,
+      "hours": 3,
+      "kind": "pc",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.8",
+      "desc": "Supervisory \u2014 full-time site supervision at 50% over the 7-month programme (606 actual hrs at the $88.10 supervisory rate, shown as blended-equivalent hours)",
+      "qty": 1,
+      "unit": "allowance",
+      "rate": 0,
+      "hours": 723,
+      "kind": "self",
+      "source": "\u2014"
+    },
+    {
+      "code": "2.1",
+      "desc": "Hazardous materials survey by a Level S certified surveyor. WorkSafeBC OHS s.20.112 places this duty JOINTLY on the owner and every responsible employer, so it is carried here rather than assumed to be the Owner's",
+      "qty": 1,
+      "unit": "at",
+      "rate": 3400,
+      "hours": 4,
+      "kind": "quote",
+      "source": "A-1.0 code summary (1990 construction)"
+    },
+    {
+      "code": "2.1",
+      "desc": "Asbestos abatement of existing waterproofing membrane, mastics and adhesives. The BC survey trigger is buildings predating 1990-12-31 and bituminous mastics test positive roughly half the time. Abatement contractors licensed since Jan 2024. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 16000,
+      "hours": 8,
+      "kind": "pc",
+      "source": "A-1.0 code summary"
+    },
+    {
+      "code": "2.2",
+      "desc": "Demolition \u2014 remove existing concrete topping and path paving over the parkade deck to expose top of structural slab. Saw-cut and break out over a live membrane and occupied parkade",
+      "qty": 3400,
+      "unit": "sq.ft.",
+      "rate": 4.2,
+      "hours": 283,
+      "kind": "self",
+      "source": "A-1.0 scope / A-2.1"
+    },
+    {
+      "code": "2.3",
+      "desc": "Excavation \u2014 remove fill and gravel over deck; strip grade on east side of 1988 Ogden and at edges of common paths to expose top of parkade wall. Hand excavation within TPZs",
+      "qty": 125,
+      "unit": "cubic yards",
+      "rate": 24,
+      "hours": 104,
+      "kind": "self",
+      "source": "A-1.0 scope / A-6.0 details 02, 03"
+    },
+    {
+      "code": "2.3",
+      "desc": "Buried services in the fill \u2014 locate, protect, and relocate irrigation, landscape lighting, conduit, gas and sprinkler piping encountered over the deck. No as-built information exists. BC Housing names this as the FIRST unforeseen cost on podium work. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 10000,
+      "hours": 12,
+      "kind": "pc",
+      "source": "\u2014"
+    },
+    {
+      "code": "2.4",
+      "desc": "Remove section of hedge #9 to enable installation of scaffolding; protect and retain all balance of trees, hedges and shrubs",
+      "qty": 1,
+      "unit": "at",
+      "rate": 3200,
+      "hours": 8,
+      "kind": "subtrade",
+      "source": "A-1.0"
+    },
+    {
+      "code": "2.4",
+      "desc": "Engineered shoring for construction loading of the suspended slab \u2014 P.Eng-certified plans to CSA S269.1-16 (WorkSafeBC s.20.18) and an engineering certificate on site immediately before EACH intended loading event (s.20.26). An older deck may carry only ~2.4 kPa; a mini-excavator, ready-mix truck or stacked paver pallet exceeds that locally. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 16000,
+      "hours": 16,
+      "kind": "pc",
+      "source": "A-2.0 / A-2.1"
+    },
+    {
+      "code": "2.5",
+      "desc": "Street cleaning and washing \u2014 Ogden Ave, Maple St and lane, over the programme",
+      "qty": 16,
+      "unit": "months",
+      "rate": 240,
+      "hours": 16,
+      "kind": "self",
+      "source": "A-1.0"
+    },
+    {
+      "code": "2.6",
+      "desc": "Pea gravel bedding \u2014 5/8\" to 3/8\", no organic material, ASTM C-33",
+      "qty": 2000,
+      "unit": "sq.ft.",
+      "rate": 1.41,
+      "hours": 44,
+      "kind": "self",
+      "source": "A-6.0 material list"
+    },
+    {
+      "code": "2.9",
+      "desc": "New concrete pavers on pea gravel \u2014 common paths and patios",
+      "qty": 1400,
+      "unit": "sq.ft.",
+      "rate": 17.12,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "A-2.1"
+    },
+    {
+      "code": "2.9",
+      "desc": "New concrete pavers on pedestals \u2014 rear patio at 1988 Ogden",
+      "qty": 600,
+      "unit": "sq.ft.",
+      "rate": 23.54,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "A-2.1 / A-6.0 detail 01"
+    },
+    {
+      "code": "2.11",
+      "desc": "New trees, shrubs and planting \u2014 NO LANDSCAPE DRAWINGS IN THIS SET. CHOA 600-008 states project cost is 'predominately driven by the amount of material and level of complexity of the new landscaping design'. P.C. raised accordingly",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 26000,
+      "hours": 2,
+      "kind": "pc",
+      "source": "A-2.1 / A-6.0"
+    },
+    {
+      "code": "2.11",
+      "desc": "Plant establishment and maintenance period (2 growing seasons) and plant warranty",
+      "qty": 1,
+      "unit": "at",
+      "rate": 8500,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "\u2014"
+    },
+    {
+      "code": "2.12",
+      "desc": "Engineered lightweight growing medium over deck \u2014 NOT topsoil. Specified as growing medium on a suspended slab because saturated density governs the structural load on the deck",
+      "qty": 1400,
+      "unit": "sq.ft.",
+      "rate": 9.6,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-2.1 / A-6.1 details 02, 03"
+    },
+    {
+      "code": "2.13",
+      "desc": "Subsurface drainage \u2014 drain rock, 8\" perforated PVC pipe at bottom, filter fabric to drain sumps",
+      "qty": 320,
+      "unit": "lineal",
+      "rate": 34,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.1 details 02, 03"
+    },
+    {
+      "code": "2.14",
+      "desc": "Freestanding landscape wall / fence replaced per A-6.0 detail 06; reuse two existing gates",
+      "qty": 80,
+      "unit": "lineal",
+      "rate": 90.24,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 06 / A-2.1"
+    },
+    {
+      "code": "2.16",
+      "desc": "Hard landscaping \u2014 BBQ area, steps and miscellaneous hardscape per landscape drawings not issued. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 16000,
+      "hours": 2,
+      "kind": "pc",
+      "source": "A-2.1"
+    },
+    {
+      "code": "3.1",
+      "desc": "New 4\" ht pre-curb at building perimeters, 4\" gap every 4'-0\" and at low spots for drainage, 1/2\" expansion joint to existing curb",
+      "qty": 300,
+      "unit": "lineal",
+      "rate": 40.66,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "3.2",
+      "desc": "New concrete topping sloped 2% to edge / drain over full deck. Thickness is NOT specified anywhere in the set; priced at 2\" average. Six details ask the contractor to confirm whether the existing slab is sloped",
+      "qty": 3400,
+      "unit": "sq.ft.",
+      "rate": 10.17,
+      "hours": 3,
+      "kind": "subtrade",
+      "source": "A-6.0 details 01\u201306"
+    },
+    {
+      "code": "3.3",
+      "desc": "Reinforcing steel to pre-curb and topping \u2014 NO STRUCTURAL DRAWINGS IN THIS SET. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 9500,
+      "hours": 2,
+      "kind": "pc",
+      "source": "A-6.0 / A-6.1"
+    },
+    {
+      "code": "3.4",
+      "desc": "PROVISIONAL UNIT RATE \u2014 Top surface delamination repair, 4\" average depth. Provisional quantity 750 sq.ft; RANGE 300\u20131,900 sq.ft, measured in the field by the consultant as the basis of payment. Quantity set at 22% of deck: a 15% visual/sounding estimate uplifted by the 1.46x detection shortfall (FHWA-RD-01-020) and the 1.8x overcut rule (ACI RAP-7)",
+      "qty": 500,
+      "unit": "sq.ft.",
+      "rate": 125,
+      "hours": 10,
+      "kind": "subtrade",
+      "source": "A-1.0 scope of work"
+    },
+    {
+      "code": "3.4",
+      "desc": "PROVISIONAL UNIT RATE \u2014 Soffit and joist soffit repair, 3\" average depth, worked overhead from within the parkade. Provisional quantity 120 sq.ft; RANGE 0\u2013600 sq.ft",
+      "qty": 100,
+      "unit": "sq.ft.",
+      "rate": 165,
+      "hours": 6,
+      "kind": "subtrade",
+      "source": "A-1.0 scope of work"
+    },
+    {
+      "code": "3.4",
+      "desc": "PROVISIONAL UNIT RATE \u2014 Through-slab full-depth repair, 4\" average. Provisional quantity 60 sq.ft; RANGE 0\u2013300 sq.ft",
+      "qty": 50,
+      "unit": "sq.ft.",
+      "rate": 245,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "A-1.0 scope of work"
+    },
+    {
+      "code": "3.4",
+      "desc": "PROVISIONAL UNIT RATE \u2014 Depth overage adder, per inch beyond the specified average depth, per sq.ft. Provisional 300 sq.ft-inch. This is the mechanism that stops depth found becoming a change-order argument",
+      "qty": 250,
+      "unit": "sq.ft.",
+      "rate": 22,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "\u2014"
+    },
+    {
+      "code": "3.4",
+      "desc": "Exposed reinforcement \u2014 abrasive blast and zinc-rich galvanizing paint; supplemental bar where section loss exceeds allowable. Provisional 400 lineal",
+      "qty": 300,
+      "unit": "lineal",
+      "rate": 38,
+      "hours": 5,
+      "kind": "subtrade",
+      "source": "\u2014"
+    },
+    {
+      "code": "3.5",
+      "desc": "New concrete curb at exterior stairwell (parking exit at 1988 Ogden) and half-round concrete cap to landscape wall, c/w new reveal and caulking",
+      "qty": 105,
+      "unit": "lineal",
+      "rate": 52,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.1 detail 01 / A-6.0 detail 03"
+    },
+    {
+      "code": "3.8",
+      "desc": "Landscape concrete placement at stairwell curb and caps",
+      "qty": 1,
+      "unit": "at",
+      "rate": 4800,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.1 detail 01"
+    },
+    {
+      "code": "4.1",
+      "desc": "Brick at base of exterior wall \u2014 carefully remove and salvage, then rebuild to 2\" above adjacent grade over the new membrane and flashing. Shown on detail 02 and not previously carried",
+      "qty": 220,
+      "unit": "sq.ft.",
+      "rate": 46,
+      "hours": 6,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 02"
+    },
+    {
+      "code": "5.1",
+      "desc": "Prefinished metal flashing \u2014 Cascadia 20ga, custom colour by architect, c/w 4\" upleg, extended to 1/2\" of grade",
+      "qty": 500,
+      "unit": "lineal",
+      "rate": 23.11,
+      "hours": 25,
+      "kind": "self",
+      "source": "A-6.0 material list / details 01, 02"
+    },
+    {
+      "code": "5.1",
+      "desc": "Perforated aluminum drain strip at base of exterior wall",
+      "qty": 115,
+      "unit": "lineal",
+      "rate": 28.25,
+      "hours": 6,
+      "kind": "self",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "5.1",
+      "desc": "Insect screen at drain strip and flashing terminations",
+      "qty": 115,
+      "unit": "lineal",
+      "rate": 6.4,
+      "hours": 4,
+      "kind": "self",
+      "source": "A-6.0 details 01, 02"
+    },
+    {
+      "code": "5.2",
+      "desc": "Reuse existing gates \u2014 remove, store, adjust and rehang two gates",
+      "qty": 2,
+      "unit": "at",
+      "rate": 420,
+      "hours": 6,
+      "kind": "self",
+      "source": "A-2.1"
+    },
+    {
+      "code": "5.4",
+      "desc": "New top-mounted guard, 3'-6\" above walking surface, at exterior stairwell / parking exit at 1988 Ogden",
+      "qty": 25,
+      "unit": "lineal",
+      "rate": 372.24,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "A-6.1 detail 01"
+    },
+    {
+      "code": "5.4",
+      "desc": "Guardrail specialty engineering \u2014 Supporting Registered Professional to seal shop drawings and issue Schedules S-B and S-C for the new top-mounted guard",
+      "qty": 1,
+      "unit": "at",
+      "rate": 7500,
+      "hours": 4,
+      "kind": "quote",
+      "source": "A-6.1 detail 01"
+    },
+    {
+      "code": "5.7",
+      "desc": "New galvanized steel grate to parkade fan vent lid, c/w debris shroud to drain",
+      "qty": 1,
+      "unit": "at",
+      "rate": 1926,
+      "hours": 4,
+      "kind": "quote",
+      "source": "A-1.0 / A-2.1 vent note"
+    },
+    {
+      "code": "6.2",
+      "desc": "PROVISIONAL UNIT RATE \u2014 Sheathing replacement at base of exterior walls. Provisional 1,500 sq.ft (50% of the 3,000 sq.ft assumed opened area); RANGE 300\u20133,000 sq.ft. Rot is the base case on 1985\u20132000 coastal BC wood-frame behind a failed membrane, not a contingency. Includes the 20% renovation uplift on framing labour",
+      "qty": 750,
+      "unit": "sq.ft.",
+      "rate": 9.2,
+      "hours": 65,
+      "kind": "self",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "6.2",
+      "desc": "PROVISIONAL UNIT RATE \u2014 Stud and plate replacement. Provisional 200 lineal (40% of the 500 lineal exposed wall run); RANGE 0\u2013500 lineal. Includes the 20% renovation uplift",
+      "qty": 200,
+      "unit": "lineal",
+      "rate": 28,
+      "hours": 40,
+      "kind": "self",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "6.2",
+      "desc": "PROVISIONAL UNIT RATE \u2014 Sill plate and rim joist replacement. Provisional 150 lineal (30% of exposed run); RANGE 0\u2013500 lineal. Includes the 20% renovation uplift",
+      "qty": 120,
+      "unit": "lineal",
+      "rate": 42,
+      "hours": 36,
+      "kind": "self",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "6.2",
+      "desc": "Structural engineer field review of opened framing \u2014 one per phase, minimum four. The drawings require studs to be reviewed by structural before replacement",
+      "qty": 4,
+      "unit": "at",
+      "rate": 1850,
+      "hours": 8,
+      "kind": "quote",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "7.1",
+      "desc": "1/2\" drain mat and filter fabric (Sopradrain 150 / Ecodrain E or approved alternate) over deck and up walls; new drain mat lapped over existing at cold joints. Includes 10% waste",
+      "qty": 3740,
+      "unit": "sq.ft.",
+      "rate": 2.38,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.0 all details / material list"
+    },
+    {
+      "code": "7.3",
+      "desc": "2\" concrete-faced insulation at parkade wall head, and 1/2\" min insulation around drains",
+      "qty": 400,
+      "unit": "sq.ft.",
+      "rate": 8.35,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 02 / A-6.1 details 02, 03"
+    },
+    {
+      "code": "7.4",
+      "desc": "Blueskin VP100 vapour-permeable self-adhered sheathing membrane, lapped over metal flashing and sealed to degranulated cap sheet. Quantity follows the opened wall area",
+      "qty": 900,
+      "unit": "sq.ft.",
+      "rate": 2.7,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.0 material list / detail 01"
+    },
+    {
+      "code": "7.4",
+      "desc": "6mil polyethylene vapour barrier",
+      "qty": 600,
+      "unit": "sq.ft.",
+      "rate": 0.72,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.0 material list"
+    },
+    {
+      "code": "7.4",
+      "desc": "Poly root barrier at planted areas",
+      "qty": 1400,
+      "unit": "sq.ft.",
+      "rate": 1.09,
+      "hours": 1,
+      "kind": "subtrade",
+      "source": "A-6.1 details 02, 03"
+    },
+    {
+      "code": "7.5",
+      "desc": "Scaffolding to base-of-wall work areas \u2014 explicitly required by A-1.0, which removes a section of hedge #9 to allow its erection. Omitted entirely from rev 1",
+      "qty": 2500,
+      "unit": "sq.ft.",
+      "rate": 2.71,
+      "hours": 30,
+      "kind": "subtrade",
+      "source": "A-1.0"
+    },
+    {
+      "code": "7.5",
+      "desc": "Removal and reinstatement of exterior cladding at base of walls, to the height required to install new sheathing membrane, flashing and drain strip and to expose framing for review. 3,000 sq.ft assumed opened; includes the 20% renovation uplift on labour. Omitted entirely from rev 1",
+      "qty": 1500,
+      "unit": "sq.ft.",
+      "rate": 6.4,
+      "hours": 375,
+      "kind": "self",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "7.6",
+      "desc": "2-ply SBS roofing membrane \u2014 complete system with all accessories (Soprema, IKO, Bakor or approved alternate), over deck and upturned to min 8\" above finished grade, extended 12\" past cold joints. 3,400 sq.ft. deck + 750 sq.ft. upturn, 10% waste",
+      "qty": 4565,
+      "unit": "sq.ft.",
+      "rate": 22.56,
+      "hours": 8,
+      "kind": "subtrade",
+      "source": "A-6.0 all details"
+    },
+    {
+      "code": "7.6",
+      "desc": "Flameless self-adhered base and cap sheet at ALL perimeters, flashings and penetrations, extending 915mm into the field, with torch application restricted to the open field. CRCA torch guideline is now the Canadian standard of care and prohibits torching onto plywood or OSB \u2014 which the sheathing replacement line above guarantees will be present",
+      "qty": 500,
+      "unit": "lineal",
+      "rate": 44,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "A-6.0 all details"
+    },
+    {
+      "code": "7.6",
+      "desc": "PMMA membrane (Alsan RS 230) terminating SBS on remaining exposed concrete, lapped onto SBS 8\" and onto concrete 8\"",
+      "qty": 620,
+      "unit": "sq.ft.",
+      "rate": 19.26,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 05 / A-6.1 detail 01"
+    },
+    {
+      "code": "7.6",
+      "desc": "Temporary membrane termination \u2014 single-component Alsan flashing night seals at edges of work areas, required for construction sequencing",
+      "qty": 400,
+      "unit": "lineal",
+      "rate": 24.5,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 04"
+    },
+    {
+      "code": "7.6",
+      "desc": "Hot rubber roof membrane lapped into drain sumps, 10\"x10\"x3/4\" recess formed in slab",
+      "qty": 6,
+      "unit": "at",
+      "rate": 780,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.1 details 02, 03"
+    },
+    {
+      "code": "7.6",
+      "desc": "Seal all slab penetrations",
+      "qty": 1,
+      "unit": "at",
+      "rate": 3400,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "7.6",
+      "desc": "Permanent electronic leak detection \u2014 conductance scanning sensor grid to all inaccessible-overburden areas (concrete topping, pavers on pea gravel, planted areas; pedestal pavers exempt). MANDATORY under RCABC, installed before overburden, available from three recognised providers only (Detec, ILD, SMT) so it prices as sole-source",
+      "qty": 2800,
+      "unit": "sq.ft.",
+      "rate": 4.2,
+      "hours": 6,
+      "kind": "subtrade",
+      "source": "RCABC RPM \u2014 assembly has inaccessible overburden"
+    },
+    {
+      "code": "7.6",
+      "desc": "Integrity scan and membrane moisture scan survey and report \u2014 separately mandatory under RCABC where overburden exceeds 150mm and area exceeds 200 sq.ft.",
+      "qty": 2,
+      "unit": "at",
+      "rate": 3600,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "RCABC RPM"
+    },
+    {
+      "code": "7.6",
+      "desc": "Flood testing to ASTM D5957 prior to overburden, where specified by the consultant. Contractor's expense; contractor patches test locations at no cost",
+      "qty": 3400,
+      "unit": "sq.ft.",
+      "rate": 1.15,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "\u2014"
+    },
+    {
+      "code": "7.6",
+      "desc": "Deck expansion joint replacement \u2014 Emseal/Migutan class, watertight tie-in to the buried membrane, side flashing sheets, elastomeric nosing, blockout and 100mm upturns. NO EXPANSION JOINT IS SHOWN ANYWHERE IN THE SET; a deck of this age and span will have at least one. P.C. pending field confirmation of location and width",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 14000,
+      "hours": 4,
+      "kind": "pc",
+      "source": "not shown \u2014 see question register"
+    },
+    {
+      "code": "9.2",
+      "desc": "Exterior painting \u2014 prime and finish reinstated cladding and trim at base of walls",
+      "qty": 1500,
+      "unit": "sq.ft.",
+      "rate": 2.85,
+      "hours": 4,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "9.2",
+      "desc": "Elastomeric paint to half-round concrete cap and freestanding landscape wall. Called for on detail 06 and omitted entirely from rev 1",
+      "qty": 420,
+      "unit": "sq.ft.",
+      "rate": 5.2,
+      "hours": 2,
+      "kind": "subtrade",
+      "source": "A-6.0 detail 06"
+    },
+    {
+      "code": "10.1",
+      "desc": "REPURPOSED CODE \u2014 Firestopping. New 2hr F/T rated firestopping at parkade ceiling where existing products cannot practically be retained. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 16000,
+      "hours": 8,
+      "kind": "pc",
+      "source": "A-1.0 code summary"
+    },
+    {
+      "code": "15.1",
+      "desc": "Bi-level area drains c/w adjustable grate flush with pavers, and deck drains \u2014 NO MECHANICAL DRAWINGS IN THIS SET. Count assumed",
+      "qty": 6,
+      "unit": "at",
+      "rate": 909.5,
+      "hours": 6,
+      "kind": "subtrade",
+      "source": "A-6.1 details 02, 03"
+    },
+    {
+      "code": "15.1",
+      "desc": "Tie-in of new deck drains to existing parkade storm drainage \u2014 no as-built information available. P.C.",
+      "qty": 1,
+      "unit": "P.C.",
+      "rate": 8500,
+      "hours": 4,
+      "kind": "pc",
+      "source": "A-6.1"
+    },
+    {
+      "code": "15.8",
+      "desc": "Parkade fan vent remediation \u2014 remove accumulated debris within vent, expose drain, add debris shroud, confirm drain functioning",
+      "qty": 1,
+      "unit": "at",
+      "rate": 3850,
+      "hours": 6,
+      "kind": "subtrade",
+      "source": "A-1.0 / A-2.1"
+    },
+    {
+      "code": "1.1",
+      "desc": "Building permit and City fees \u2014 permit DB-2022-05336 issued to the Owner; consultant time on the permit process is typically time-and-expense and not in their fee proposal",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-1.0 title block"
+    },
+    {
+      "code": "1.1",
+      "desc": "RCABC RoofStar Observer fees, first and final observation, and the prepaid guarantee-term maintenance programme \u2014 all paid by the Owner at tender under the RoofStar programme",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "RCABC RPM"
+    },
+    {
+      "code": "1.1",
+      "desc": "Independent inspection and testing agency fees",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.1",
+      "desc": "Structural capacity assessment of the existing slab where as-built records are unavailable",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.1",
+      "desc": "Structural, landscape and mechanical consultant design and field review \u2014 none of the three packages was issued with this set",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-6.0 / A-6.1"
+    },
+    {
+      "code": "1.1",
+      "desc": "Arborist report, tree plan approval and landscape reviewer sign-off",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-1.0"
+    },
+    {
+      "code": "1.1",
+      "desc": "Strata legal, engineering review and depreciation report costs",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.1",
+      "desc": "Temporary and offsite resident parking, resident notification and meeting attendance, and any loss of parking revenue during shutdown",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.1",
+      "desc": "Fire alarm and sprinkler impairment, and the building's own life-safety fire watch during impairment. This is distinct from the hot work fire watch carried above and is frequently conflated with it",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "1.6",
+      "desc": "Characterisation and classification of excess soil for disposal",
+      "qty": 0,
+      "unit": "BY OWNER",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "7.3",
+      "desc": "Insulation, vapour barrier, concrete topping, gypsum board and interior finish at base of exterior walls \u2014 explicitly noted BY INTERIOR RENO CONTRACTOR",
+      "qty": 0,
+      "unit": "BY OTHERS",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-6.0 detail 01"
+    },
+    {
+      "code": "3.4",
+      "desc": "Structural strengthening of parkade slab, columns or beams beyond the surface and full-depth repairs scheduled above",
+      "qty": 0,
+      "unit": "NOT INCLUDED",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-1.0 scope of work"
+    },
+    {
+      "code": "9.1",
+      "desc": "Repair of interior finishes damaged by pre-existing water ingress",
+      "qty": 0,
+      "unit": "NOT INCLUDED",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "15.5",
+      "desc": "Sprinkler system modifications \u2014 A-1.0 refers to separate sprinkler drawings for 1988 Ogden, not issued",
+      "qty": 0,
+      "unit": "NOT INCLUDED",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-1.0 general notes"
+    },
+    {
+      "code": "16.1",
+      "desc": "Electrical work and landscape or security lighting, beyond protection and relocation of conduit encountered in the fill",
+      "qty": 0,
+      "unit": "NOT INCLUDED",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "\u2014"
+    },
+    {
+      "code": "2.15",
+      "desc": "Reconstruction of the concrete driveway ramp surface, and any traffic-bearing coating. If any part of the ramp or drive aisle is later added to scope it requires an ASTM C957 traffic system, not this buried assembly",
+      "qty": 0,
+      "unit": "NOT INCLUDED",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-2.1"
+    },
+    {
+      "code": "1.1",
+      "desc": "Upgrade of any parkade item to current code \u2014 A-1.0 states the project does not seek to upgrade items within the parkade. Note that replaced guards, piping or electrical may trigger current-code compliance regardless",
+      "qty": 0,
+      "unit": "NOT INCLUDED",
+      "rate": 0,
+      "hours": 0,
+      "kind": "excluded",
+      "source": "A-1.0 code summary"
+    }
+  ],
+  "assumptions": [
+    "REV 2. This estimate replaces the rev 1 issue of the same date. Rev 1 was $773,256.22. It understated the job, and the corrections are recorded rather than absorbed: concealed rot at the base of the exterior walls is now priced as a provisional unit-rate item rather than a token allowance; concrete repair is now a unit-rate schedule with stated ranges rather than a lump sum; the programme is 7 months rather than 5; and scaffolding, cladding removal and reinstatement, masonry, painting, expansion joints, shoring, electronic leak detection and fire watch have been added, all of which were missing. Provisional quantities were then re-checked against the evidence rather than set defensively: the opened wall area is 1,500 sq.ft not 3,000, and shoring, crane, hazmat abatement and expansion joint allowances are sized for a 3,400 sq.ft residential deck rather than scaled from the large municipal parkade tenders used as the method reference.",
+    "CONCEALED ROT IS PRICED AS THE BASE CASE, NOT A CONTINGENCY. These buildings date from 1990 \u2014 BC leaky-condo-era wood-frame, face-sealed with no drainage cavity. The membrane at the base of the walls has been failing long enough to justify full replacement, which means the framing behind it has been wet for approximately thirty years. Detail 01/A-6.0 instructs that studs be reviewed by structural and replaced where deteriorated, and that plywood be replaced where deteriorated. Sound framing is the exception, not the expectation. Provisional quantities assume 3,000 sq.ft of wall opened, with 50% of sheathing, 40% of studs and 30% of sill and rim members replaced. THESE ARE A PRICING POSITION, NOT A TAKEOFF \u2014 they exist so the line is the right order of magnitude before a wall is opened. Two or three test openings before contract would replace them with measurement and is strongly recommended.",
+    "CONCRETE REPAIR IS PRICED AS UNIT RATES AGAINST PROVISIONAL QUANTITIES WITH STATED RANGES, measured in the field by the consultant as the basis of payment. The top-surface provisional quantity of 750 sq.ft is 22% of the deck: a 15% visual estimate uplifted by the 1.46x detection shortfall documented in FHWA-RD-01-020 (a deck with 19% core-validated delamination was called at an average of 13% by 22 professional survey teams) and the 1.8x geometric overcut required by ACI RAP-7, which extends repair limits 3\u20134\" beyond the marked area. A separate per-inch depth adder is carried so depth found does not become a change-order argument.",
+    "Exposed parkade deck taken at 3,400 sq.ft. STILL INFERRED, NOT STATED \u2014 the drawings give only the parkade interior parking area (approx. 4,207 sq.ft., A-2.0). Derived two converging ways: gross deck approx. 4,400 less approx. 800 under 1988 Ogden = 3,600; and site area 8,315 less building footprints 3,246 less yards outside the parkade approx. 1,843 = 3,226. This remains the single highest-value unknown in the estimate \u2014 see Question 1.",
+    "Building footprints computed from the dimension strings on A-2.1 and reconciling to the stated site dimensions of 129.95 ft and 122.02 ft within 0.1%: 1988 Ogden 795 sq.ft., 1998 Ogden 800 sq.ft., 1066/1068 Maple 1,651 sq.ft.",
+    "Programme assumed at 7 months (16 bi-weekly periods), priced against the strata's access requirements rather than the trade sequence. Rev 1 assumed 5 months from the phasing implied by A-6.0 detail 04 and that proved short. Phasing is the largest single schedule risk: shoring cycles, mobilisations, fire watch days and ventilation rental all scale with the number of phases, and a four-phase job is not a one-phase job divided by four.",
+    "Membrane upturn taken at 500 lineal ft of deck perimeter x 1.5 ft height. 10% waste applied to membrane and drain mat quantities.",
+    "Contractor's labour is estimated at a blended crew rate and billed at the individual trade rates. Supervisory, labourer and fire-watch lines are carried at their own rates rather than the blend.",
+    "Priced on a 2026 basis using StatCan Building Construction Price Index 18-10-0289-01 for the Vancouver CMA rather than a flat escalation projection. BC PST and material handling are embedded in the rates, which is why no PST line appears in the summary. GST is shown separately.",
+    "Contingency is carried at 15%, not the 10% used in rev 1. CHOA Bulletin 600-008 and BC Housing Maintenance Matters No. 17, both prepared by Morrison Hershfield, recommend at least 10% for podium waterproofing replacement and state that a larger proportional fund is needed as the project gets smaller. A 3,400 sq.ft deck serving four units is at the small end of this project type.",
+    "Torch-applied SBS is assumed to be permitted by the strata's insurer. This is NOT confirmed \u2014 carriers have tightened significantly on torch work over occupied residential buildings. If torch is refused, the substitution to a self-adhered or hot-applied system is a scope change and would be priced as one.",
+    "The parkade is assumed to remain in operation, with the deck remediated in phases so resident vehicle and pedestrian access is maintained. The building's mechanical ventilation is assumed to remain running; if it is shut down or intakes are sealed for the work, the deck may become a confined space and the cost changes materially.",
+    "Existing slab assumed to have partial fall to drain; topping priced at 2\" average. The topping thickness is not specified anywhere in the set and every detail asks the contractor to confirm whether the existing slab is sloped.",
+    "Cost code 10.1 has been repurposed for this job as 'Firestopping'. Recorded so the client document and the Sage export agree."
+  ],
+  "exclusions": [
+    "Building permit and City fees \u2014 permit DB-2022-05336 was issued to the Owner in March 2023",
+    "RCABC RoofStar Observer fees, construction observation, and the prepaid guarantee-term maintenance programme \u2014 owner-paid at tender under the RoofStar programme",
+    "Independent inspection and testing agency fees",
+    "Structural capacity assessment of the existing slab where as-built records are unavailable",
+    "Structural, landscape and mechanical consultant design and field review \u2014 none of the three packages was issued with this set",
+    "Arborist report, tree plan approval and landscape reviewer sign-off",
+    "Strata legal, engineering review and depreciation report costs",
+    "Temporary and offsite resident parking, resident notification and meeting attendance, and loss of parking revenue during shutdown",
+    "Fire alarm and sprinkler impairment and the building's own life-safety fire watch during impairment \u2014 distinct from the hot work fire watch, which is included",
+    "Characterisation and classification of excess soil for disposal",
+    "Insulation, vapour barrier, concrete topping, gypsum board and interior finish at the base of exterior walls \u2014 noted on A-6.0 as by the interior renovation contractor",
+    "Structural strengthening of parkade slab, columns or beams beyond the repairs scheduled",
+    "Repair of interior finishes damaged by pre-existing water ingress",
+    "Sprinkler system modifications",
+    "Electrical work and landscape or security lighting, beyond protection and relocation of conduit encountered in the fill",
+    "Reconstruction of the concrete driveway ramp surface and any traffic-bearing coating",
+    "Upgrade of parkade items to current code, save where replacing an element triggers it"
+  ],
+  "questions": [
+    {
+      "q": "Can we cut two or three test openings at the base of the exterior walls before this price is fixed? This is the single highest-value action available. The framing lines are currently priced from a rot assumption, not a measurement, and on a 1990 building behind a failed membrane the spread between 'some rot' and 'extensive rot' is worth more than every other open question combined.",
+      "assumed": "3,000 sq.ft of wall opened; 50% of sheathing, 40% of studs and 30% of sill/rim members replaced. Carried as provisional unit rates with stated ranges.",
+      "affects": "6.2, 7.5, 9.2"
+    },
+    {
+      "q": "What is the actual area of exposed parkade deck within the scope-of-slab-remediation line on A-2.1? The drawings state the parkade interior parking area but never the deck area to be remediated.",
+      "assumed": "3,400 sq.ft. Every 100 sq.ft. of error moves the estimate by roughly $4,600 before fee and GST.",
+      "affects": "2.2, 3.2, 7.1, 7.6"
+    },
+    {
+      "q": "Will the strata's insurer permit torch-applied SBS on an occupied residential building? Carriers have tightened hard on hot work over occupied residential after recent loss experience, and many now exclude it or require a specific endorsement.",
+      "assumed": "Torch permitted, with CRCA-compliant flameless detailing at all perimeters and penetrations. If refused, the product substitution is a scope change.",
+      "affects": "7.6, 1.5"
+    },
+    {
+      "q": "Is DB-2022-05336 rev 04 dated 23.03.06 still the current set, and is the permit still valid? It was accepted by the City on 2023-03-22, over three years ago. Has the set been revised, has the permit lapsed, and has any of the work already been carried out?",
+      "assumed": "Priced as the March 2023 issue for a 2026 construction start.",
+      "affects": "whole estimate"
+    },
+    {
+      "q": "How many work phases will the strata require, and what access must be maintained in each? Phasing is the largest schedule risk on the job \u2014 shoring cycles, mobilisations, fire watch days and ventilation rental all scale with phase count.",
+      "assumed": "7-month programme with phasing per A-6.0 detail 04. Additional phases beyond those assumed would be a change.",
+      "affects": "1.1, 1.3, 1.8, 2.4, 7.6"
+    },
+    {
+      "q": "Is there an expansion joint in the deck, and if so where and how wide? None is shown anywhere in the set, but a suspended deck of this age and span will almost certainly have at least one, and it must tie watertight into the new membrane.",
+      "assumed": "P.C. of $24,000 pending field confirmation.",
+      "affects": "7.6"
+    },
+    {
+      "q": "Where are the landscape drawings? A-6.0 and A-6.1 refer to landscape for finishes at eight separate points. CHOA's guidance is explicit that landscape complexity is the predominant cost driver on this project type.",
+      "assumed": "P.C. allowances of $26,000 planting and $16,000 hard landscaping, plus unit-rate paving at mid-range specifications.",
+      "affects": "2.9, 2.11, 2.12, 2.16"
+    },
+    {
+      "q": "Where are the structural drawings? A-6.0 says 'SEE STRUCTURAL FOR STEEL REINFORCEMENT' and 'STUDS TO BE REVIEWED BY STRUCTURAL'; A-6.1 says 'NEW REINFORCING PER STRUCTURAL'. Also: is any part of the deck post-tensioned? CSA S448.1 excludes PT slabs and the repair risk profile changes completely if it is.",
+      "assumed": "Conventionally reinforced slab. P.C. of $9,500 for reinforcing, with framing review carried at 4 site visits.",
+      "affects": "3.3, 3.4, 6.2"
+    },
+    {
+      "q": "Where are the mechanical drawings? A-6.1 refers all deck drains, area drains and drain insulation to mech and gives no count or location.",
+      "assumed": "6 drains, tied into existing parkade storm drainage under an $8,500 P.C.",
+      "affects": "15.1"
+    },
+    {
+      "q": "Has a hazardous materials survey been done? WorkSafeBC OHS s.20.112 places the duty jointly on the owner AND every responsible employer, and the BC trigger is buildings predating 1990-12-31. Bituminous mastics and waterproofing adhesives of this vintage test positive roughly half the time and cannot be identified visually. Work stops if unidentified material is found mid-job.",
+      "assumed": "Survey carried; abatement carried at a $28,000 P.C.",
+      "affects": "2.1, 2.2, 2.3"
+    },
+    {
+      "q": "Does the building's mechanical ventilation stay running throughout? If it is shut down or intakes sealed for the work, the parkade may meet the definition of a confined space and entry procedures, atmospheric testing, attendants and rescue provisions all become chargeable.",
+      "assumed": "Ventilation remains operational; temporary fans and continuous multi-gas monitoring carried for hot work.",
+      "affects": "1.3"
+    },
+    {
+      "q": "Is the existing slab sloped to drain, and what topping thickness does the architect intend? Six details ask the contractor to confirm the slope, and no detail gives a topping thickness anywhere in the set.",
+      "assumed": "Partial existing fall; topping at 2\" average.",
+      "affects": "3.2"
+    },
+    {
+      "q": "What is under the fill? Irrigation, landscape lighting, conduit, gas and sprinkler piping are all likely and none is recorded. BC Housing names buried services as the first unforeseen cost on podium projects.",
+      "assumed": "P.C. of $14,000.",
+      "affects": "2.3"
+    },
+    {
+      "q": "How much fill sits above the parkade slab? Depth is not dimensioned anywhere in the set and drives both excavation quantity and disposal loads.",
+      "assumed": "8\" average fill plus 3\" topping \u2014 125 cubic yards, 18 bins.",
+      "affects": "2.3, 1.6"
+    },
+    {
+      "q": "Confirm the extent of 2hr F/T firestopping at the parkade ceiling. A-1.0 says new firestopping goes in 'where it is impractical to keep existing fire stopping products', which cannot be assessed until the deck is opened.",
+      "assumed": "P.C. of $16,000.",
+      "affects": "10.1"
+    },
+    {
+      "q": "Which RoofStar standard applies, and what guarantee term does the strata expect? Plaza and podium decks fall under the Plazas, Promenades and Terraces standard and are excluded from grade-level waterproofing coverage; vegetated assemblies carry only a 2-year guarantee. Overburden removal to access the membrane is never covered and remains the owner's cost for the life of the guarantee.",
+      "assumed": "Guarantee-eligible assembly with mandatory leak detection carried. Observer fees and prepaid maintenance excluded as owner costs.",
+      "affects": "7.6"
+    }
+  ],
+  "risks": [
+    {
+      "item": "Concealed rot at the base of exterior walls (6.2, 7.5, 9.2)",
+      "why": "This is the top risk on the job and it is the one that was underestimated last time. 1990 BC coastal wood-frame is leaky-condo-era construction \u2014 face-sealed, no drainage cavity \u2014 and the membrane at the wall base has been failing long enough to justify wholesale replacement. The architect knew: detail 01/A-6.0 asks for studs to be reviewed by structural and plywood replaced where deteriorated. Priced here at roughly $150,000 across framing, cladding removal and reinstatement, scaffolding and painting, against a $14,000 lump sum in rev 1. Even so the quantities are assumptions. Test openings before contract would convert the largest guess in this estimate into a measurement."
+    },
+    {
+      "item": "Concrete repair quantity and depth (3.4)",
+      "why": "Now structured as unit rates with ranges, which converts the exposure from an argument into an administrative process \u2014 but the exposure is still real. FHWA-RD-01-020 found professional survey teams called 13% delamination on a deck with 19% core-validated, and ACI RAP-7 requires cutting 3\u20134\" beyond every mark. Compounded, a sounded quantity grows about 2.5x before anything unexpected is found. RJC's own BC tenders bound parkade concrete repair at 2x\u20135x their estimate. The stated ranges here should be read as the real commercial envelope, not as a formality."
+    },
+    {
+      "item": "Programme and phase count (1.1, 1.3, 1.8)",
+      "why": "Schedule overrun was a confirmed driver last time. Div 1 now runs on a 7-month basis, but the number of work phases is set by the strata's access requirements, not by the trades, and every phase re-mobilises shoring, containment, ventilation and hot work permits. Fix the phase count in writing before contract and price additional phases as changes."
+    },
+    {
+      "item": "Deck area (2.2, 3.2, 7.1, 7.6)",
+      "why": "Still inferred at 3,400 sq.ft against drawings that never state it. Roughly 30% of trade cost moves with it. A survey before contract remains cheap relative to the exposure."
+    },
+    {
+      "item": "The three missing consultant packages (2.11, 2.16, 3.3, 6.2, 15.1)",
+      "why": "Landscape, structural and mechanical are all referred to by the details and none is issued. CHOA's guidance is that landscape complexity predominates the cost of podium work, so the largest cost driver on this project type is the package that does not exist. This is the same condition that produced the Ogden change-order history and the estimate should not be presented as a fixed price against it."
+    },
+    {
+      "item": "Insurer position on torch-applied membrane (7.6, 1.5)",
+      "why": "Assumed permitted and not confirmed. Hot work over occupied residential has become materially harder to insure, and a refusal forces a product substitution across the largest single line in the estimate. Resolve before contract, not after."
+    },
+    {
+      "item": "Hazardous materials (2.1, 2.2)",
+      "why": "A 1990 building sits exactly on the BC survey trigger date, and the scope removes an existing bituminous waterproofing membrane wholesale. Mastics of this era test positive around half the time and cannot be identified visually. A survey and a $28,000 abatement P.C. are now carried, but discovery of unidentified material stops the work by regulation until the surveyor re-inspects and reissues."
+    },
+    {
+      "item": "Tree protection and root conflict (1.2, 2.3)",
+      "why": "The City has accepted a plan retaining 18 trees and hedges with mandatory certified arborist supervision for any excavation inside a protection zone. Excavation to expose the top of the parkade wall runs directly along that tree line. Root conflict is likely and every remedy \u2014 hand digging, root pruning, redesigned edge detail \u2014 is slower than the rate assumes."
+    },
+    {
+      "item": "Shoring and construction loading (2.4)",
+      "why": "All plant, material and vehicles land on a suspended slab that may carry only about 2.4 kPa. WorkSafeBC requires P.Eng-certified shoring plans and a fresh engineering certificate before each intended loading event, and the deck's actual capacity is unknown without as-builts. Carried as a $42,000 P.C.; the assessment that would size it properly is an owner cost and has not been done."
+    }
+  ]
+}
