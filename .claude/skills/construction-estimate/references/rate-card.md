@@ -195,6 +195,88 @@ From 2033 E. 7 — a major renovation with retention, house lift, new full basem
 Use these to sanity-check a completed estimate. They are not a substitute for takeoff, and
 an estimate that only matches a $/sf benchmark hasn't been done.
 
+## Concealed condition buffers
+
+Scope that cannot be quantified from drawings because it is behind, under or inside something.
+These are **not** contingency — contingency covers the estimate being wrong. These cover work
+that is certainly there and merely unmeasured. They belong on the line, as unit rates against a
+provisional quantity with a stated range.
+
+### Coastal BC concealed rot — 1985–2000 wood-frame
+
+**Trigger:** a wood-frame building of roughly 1985–2000 vintage anywhere on the BC coast
+(Vancouver, North Shore, Richmond, Surrey, Victoria, Nanaimo), where the work exposes the base
+of exterior walls, or any assembly sitting below or behind failed water management.
+
+This is leaky-condo-era construction: face-sealed, no drainage cavity. Where a membrane at the
+base of a wall has been failing for thirty years, the framing has been wet that whole time.
+**Assume rot is present. Sound framing is the exception, not the expectation.**
+
+Do not price this as a lump-sum allowance. Carry it as:
+
+| Item | Unit | Provisional basis |
+|---|---|---|
+| Sheathing replacement | sq.ft. | assume **50%** of exposed wall area, range 10–100% |
+| Stud / plate replacement | lineal | assume **40%** of exposed wall run, range 0–100% |
+| Sill plate and rim joist replacement | lineal | assume **30%** of exposed wall run, range 0–100% |
+| Structural engineer field review of opened framing | at | 1 per phase, minimum 2 |
+
+Those percentages are a **starting position for pricing, not a takeoff** — they exist so the
+line is the right order of magnitude before anyone opens a wall. Say so on the line.
+
+**Rot never arrives alone.** Every one of these follows from it and each was missed on VAS2686:
+- cladding removal and reinstatement over the full opened area
+- scaffolding or lifts to reach it
+- painting and finishing of the reinstated cladding
+- sheathing membrane, flashing and trim reinstatement
+- masonry removal and rebuild where brick returns to the wall base
+
+If a rot line exists and those five don't, the estimate is incomplete.
+
+**Buy the answer instead of guessing it.** Two or three test openings at the worst-looking
+condition cost a day and reprice the entire line. On any building of this vintage, ask for
+them before the number goes out. It is the highest-value pre-estimate spend available.
+
+### Concrete repair on a suspended slab
+
+Never lump sum. Unit rate against a provisional quantity **with a stated range**, plus a
+separate per-inch adder for depth found beyond the specified average. Read Jones
+Christoffersen's own tenders bound the quantity at 2×–5× their estimate (see `lessons.md`), and
+they have full access to the structure. Price topside *and* soffit/underside repairs — the
+underside is different access, different equipment, and is the item most often left out.
+
+Scale reference: ACMS (BC) publishes membrane repair at ~$100/m² against concrete repair at
+~**$1,500/m²**. Concrete repair is roughly **15× membrane repair per unit area**, which is why
+a modest quantity surprise in concrete swamps the membrane line it was meant to protect.
+
+**Two multipliers compound, and both are documented:**
+
+1. **Detection shortfall ≈ 1.46×.** FHWA-RD-01-020 *Reliability of Visual Inspection for Highway
+   Bridges* (2001), §5.4.4: a deck with core-validated delamination of **19%** of area was
+   surveyed by 22 professional teams, 20 using chain drag. Their **average call was 13%**. Only
+   5 of 22 landed within 5 points. Sounding finds roughly two-thirds of what is actually there.
+2. **Geometric overcut ≈ 1.8× on small patches.** ACI RAP-7 requires repair limits to extend
+   **3–4″ beyond** the marked delamination. A 2 ft × 2 ft patch becomes 4.0 → 7.1 sq.ft. The
+   ratio worsens as patches get smaller and more numerous.
+
+Applied to a sounded quantity these give roughly **2.5×** before anyone has found anything
+unexpected — which is why RJC's 2×–5× tender range is not conservatism, it is arithmetic.
+
+**Vintage flag:** CSA S413 *Parking Structures* first appeared in **1987**. A parkade built
+around 1990 was designed to that first edition and predates every subsequent tightening of
+cover, drainage, expansion joints and protection systems. Major rehabilitation is normally
+needed at 20–30 years; a 1990 structure in 2026 is 36 years old and past its first cycle.
+
+**Documented BC outcomes** (court records, so the numbers are on the record):
+
+| Case | Original | Final | Delta |
+|---|---|---|---|
+| Strata Plan LMS 1383, Vancouver | $270,000 | $447,601 | **+65.8%** — scope grew from P1 slab alone to P1 + P2 + delamination repair |
+| Wight v. VR 123, Maple St., Vancouver, 2024 | $1,700,000 | $2,100,000 | **+23.5%** |
+| Enefer v. LMS 1564, Odyssey Towers | $6,150,000 | ~$7,000,000 | **+13.8%** — the court found the levy was voted **before the drawings were complete** |
+
+Every documented BC case exceeded the industry's own 10% recommendation.
+
 ## Escalation
 
 Rates above are 2024. Compound at **6.2%/yr** from mid-2024 unless a better figure is known.
@@ -223,4 +305,8 @@ Append here whenever a rate changes. Newest first.
 
 | Date | Item | Old | New | Job | Note |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No corrections recorded yet |
+| 2026-07-21 | Concealed rot, base of exterior wall | $14,000 lump-sum P.C. | unit rates, ~50% sheathing / 40% studs assumed — see [Concealed condition buffers](#concealed-condition-buffers) | VAS2686 parkade | Structural rot was the **largest single driver** of a 42% overrun. The drawings said "replace where deteriorated" and were answered with a token. |
+| 2026-07-21 | Concrete repair, suspended slab | $32,000 lump-sum P.C. | unit rate × provisional qty, range 2–5×, plus per-inch depth adder | VAS2686 parkade | Overrun confirmed legitimate by Luke. Structure of the line was the error, not the rate. |
+| 2026-07-21 | Contingency, small podium deck | 10% | 15–20% | VAS2686 parkade | CHOA 600-008 / BC Housing MM17: 10% is the published floor and scales **up** as the job gets smaller. |
+| 2026-07-21 | Escalation basis | ICBA 6.2%/yr projection | StatCan BCPI 18-10-0289-01, Vancouver CMA, trade-specific series | VAS2686 parkade | Measurement beats projection. 2024Q1→2026Q1: resid. composite +5.1%, Div.9 thermal/moisture +6.5%, concrete −2% over 2025. |
+| 2026-07-21 | Programme, occupied-site remediation | 5 months | price the strata's access windows, not the trade sequence | VAS2686 parkade | Programme overrun confirmed legitimate by Luke. Div 1 and the blended rate both move with it. |

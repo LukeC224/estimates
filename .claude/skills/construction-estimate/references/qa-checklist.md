@@ -66,6 +66,43 @@ the following, and each becomes an allowance and a question rather than a takeof
 - **Geotech**, excavation support, dewatering
 - **Landscape and irrigation detail**
 
+## Coastal BC, 1985–2000 wood-frame — ask before pricing
+
+Leaky-condo-era stock. Concealed rot is the base case, and it was the largest single driver of
+the overrun on VAS2686. See `lessons.md` and the rate card's concealed-condition buffers.
+
+- **Can we cut two or three test openings before the number goes out?** The highest-value
+  pre-estimate spend available on this vintage. One day of work reprices the whole framing line.
+- Which walls sit below or behind failed water management, and for how long has it been failing?
+- Is there a building envelope condition assessment, depreciation report or engineer's report we
+  can see? On a strata there almost always is, and it will name the rot.
+- Has any previous remediation been done, and where does it stop?
+- Who carries the structural engineer's field review of framing once it is opened?
+- **Do the drawings say "replace where deteriorated" or "to be reviewed by structural"?** That is
+  the architect telling you rot is expected and will not be quantified. Price it as a range.
+
+## Parkade, podium and plaza deck work — ask before pricing
+
+- **How many phases?** A four-phase job is not a one-phase job divided by four — shoring cycles,
+  mobilizations, fire watch days and ventilation rental all scale with phase count. Price a
+  stated number and flag additional phases as a change.
+- **Is any part of the deck post-tensioned?** CSA S448.1 excludes PT slabs and the risk profile
+  changes completely.
+- **Will the strata's insurer permit torch-applied membrane on an occupied residential
+  building?** Carriers have tightened hard after 2019–2025 losses and many now exclude it. If
+  the answer is no, the product change is a scope change and gets priced as one.
+- Does the building's own ventilation stay running? If it is shut down or intakes are sealed,
+  the deck can become a confined space — materially different cost.
+- Is a hazmat survey done? **WorkSafeBC OHS s.20.112 puts the duty jointly on the owner *and*
+  every responsible employer**, and the BC survey trigger is buildings predating 1990-12-31.
+  Bituminous mastics and adhesives test positive roughly half the time and cannot be identified
+  visually. Work stops if unidentified material is found mid-job.
+- What is under the fill — irrigation, landscape lighting, gas, sprinkler? BC Housing names
+  buried services as the *first* unforeseen cost on podium work.
+- Is the existing slab sloped to drain, and has anyone surveyed the falls?
+- What overburden depth and what point loads? Over 150 mm or with planters, a Protected Membrane
+  Roof design is forced and electronic leak detection becomes mandatory.
+
 ## Renovation-specific
 
 Renovations carry latent risk that new builds don't. Ask:
